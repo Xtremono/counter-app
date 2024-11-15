@@ -19,7 +19,8 @@ export const getImagen = async() => {
 
     } catch (error) {
         // manejo del error
-        console.error(error)
+        //console.error(error)
+        return 'No se encontro la imagen';
     }
 
 

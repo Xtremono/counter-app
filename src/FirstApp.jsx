@@ -14,15 +14,10 @@ export const FirstApp = ({title, subTitle, namee }) => {
 };
 
 FirstApp.propTypes = {
-  title: PropTypes.string.isRequired,                        //
-  subTitle: PropTypes.number.isRequired
+  title: PropTypes.string,                        //
+  subTitle: PropTypes.number
 };
 
-FirstApp.defaultProps = {
-  title: "No hay titulo",
-  subTitle: 31,
-  namee: "Jose Tomas"
-};
 
 // <></> A esto se le llama fragmento, es un agrupador de elementos html. Esto tambien lo conocemos como "Nodo Padre"
 // {Dentro de esta llaves no podemos colocar un objeto} <h1>{{nombre:tomas, apellido: ruiz}}</h1>. Esto no es valido.
