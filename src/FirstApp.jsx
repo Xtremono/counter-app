@@ -6,7 +6,8 @@ export const FirstApp = ({title, subTitle, namee }) => {
 
   return (
     <>
-    <h1>{title}</h1>
+    <h1 data-testid="test-title"></h1>
+    <p>{title}</p>
     <p>{subTitle}</p>
     <p>{namee}</p>
     </>
@@ -15,7 +16,7 @@ export const FirstApp = ({title, subTitle, namee }) => {
 
 FirstApp.propTypes = {
   title: PropTypes.string,                        //
-  subTitle: PropTypes.number
+  subTitle: PropTypes.string
 };
 
 
